@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Algorithms</h1>
+        <ul id="algorithms-list">
+            <li onclick="showDetails('bubble')">Bubble Sort</li>
+            <li onclick="showDetails('selection')">Selection Sort</li>
+            <li onclick="showDetails('insertion')">Insertion Sort</li>
+            <li onclick="showDetails('merge')">Merge Sort</li>
+            <li onclick="showDetails('quick')">Quick Sort</li>
+        </ul>
+        <div id="details" class="details">
+            <h2 id="algorithm-name"></h2>
+            <p id="complexity"></p>
+            <p id="best-use"></p>
+            <pre id="code-sample"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
